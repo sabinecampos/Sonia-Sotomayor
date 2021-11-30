@@ -1,0 +1,74 @@
+/*
+Color Palette used: 
+
+#003049 ~> Prussian Blue 
+#D62828 ~> Maximum Red 
+#F77F00 ~> Orange
+#EAE2B7 ~> Lemon Meringue
+
+*/
+
+*{ /*this is just to make sure there are no spaces on top*/
+ 
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+}
+
+#wrapper{
+  background-color: #003049;
+  text-align: center;
+  overflow: hidden;
+  border: solid black 4px;
+  border-radius: 0 0 10px 10px;
+}
+
+.logo{
+  background-color: black;
+  border-radius: 0 0 10px 10px;
+  color: #D62828;
+  padding: 10px;
+  text-align:center;
+}
+
+.flex-container{
+  /* the most important thing to include in a flexbox is...*/
+  display:flex ;
+  flex-wrap: ;
+  width: 100%;
+  padding: 10px;
+  align-items: ;
+  justify-content: ;
+}
+
+.flex-item{
+  padding: 10px;
+  flex: 1 1 25%
+}
+
+a {
+  color: #D62828;
+  text-shadow: 1px 1px 1px black;
+  font-weight: bold;
+}
+
+body{
+  background-color: #EAE2B7;
+}
+
+#main-flex{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%; /*this helps provide space on the sides */
+  margin: 0 auto; /*this helps provide space on the sides */
+  justify-content: center;
+}
+  
+footer{
+  margin-top: 10px;
+}
+.field{
+  display:flex
+
+}
